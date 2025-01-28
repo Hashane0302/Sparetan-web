@@ -17,7 +17,7 @@ const popular = ["Designer", "Developer", "Web", "IOS", "PHP", "Senior"];
 import { funfactsData } from "@/data/fanfact";
 import React from "react";
 import CountUp from "react-countup";
-import Video from "../coverVideo/video";
+
 
 export default function Hero13() {
   const [getSelectedRole, setSelectedRole] = useState(null);
