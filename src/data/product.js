@@ -3,8 +3,10 @@ export const product1 = [
     id: 1,
     img: "/images/listings/g-1.jpg",
     img2: "/images/listings/g-17.jpg",
-    category: "Web & App Design",
-    title: "I will design modern websites in figma or adobe xd",
+    category: "Front-end Developer",
+    title: "5 Years Experience in React.Js, Next.Js",
+    ExpieryDate: "24/03/25",
+    Numbids: "240",
     rating: 4.82,
     review: 94,
     author: {

@@ -24,9 +24,9 @@ export default function TrendingService13() {
           <div className="row align-items-center wow fadeInUp">
             <div className="col-lg-9">
               <div className="main-title">
-                <h2 className="title">Trending Services</h2>
+                <h2 className="title">Trending jobs</h2>
                 <p className="paragraph">
-                  Most viewed and all-time top-selling services
+                  Most viewed and all-time jobs and services
                 </p>
               </div>
             </div>

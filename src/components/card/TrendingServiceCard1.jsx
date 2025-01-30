@@ -12,35 +12,10 @@ export default function TrendingServiceCard1({ data }) {
   return (
     <>
       <div
-        className={`listing-style1 ${
-          path === "/home-4" ? "default-box-shadow1 bdrs8" : ""
-        } ${path === "/home-6" ? "default-box-shadow1 border-0" : ""}
-                 ${
-                   path === "/home-9"
-                     ? "border-0 default-box-shadow1 bdrs16"
-                     : ""
-                 } 
-                ${path === "/home-10" ? "bdrs16" : ""}
-                ${path === "/home-17" ? "bdrs16" : ""}
-                ${path === "/home-15" ? "bdrs16" : ""}
-                ${path === "/home-12" ? "bdrs16" : ""}
-                 ${path === "/home-5" ? "style4 default-box-shadow1 mb60" : ""} 
-                 ${
-                   path === "/home-18" ? "style4 default-box-shadow1 mb60" : ""
-                 } 
-                 ${
-                   path === "/home-19" ? "style4 default-box-shadow1 mb60" : ""
-                 } 
-                ${path === "/home-8" ? "style5" : ""}`}
+        className={`listing-style1 `}
       >
         <div className="list-thumb">
-          <Image
-            height={190}
-            width={255}
-            className="w-100 h-100 object-fit-cover"
-            src={data.img}
-            alt="thumbnail"
-          />
+          
           <a
             onClick={() => setFavActive(!isFavActive)}
             className={`listing-fav fz12 ${isFavActive ? "ui-fav-active" : ""}`}
@@ -58,8 +33,7 @@ export default function TrendingServiceCard1({ data }) {
           <div className="review-meta d-flex align-items-center">
             <i className="fas fa-star fz10 review-color me-2" />
             <p className="mb-0 body-color fz14">
-              <span className="dark-color me-2">{data.rating}</span>
-              {data.review} reviews
+           <span>Submitted Bids: {data.Numbids} </span>
             </p>
           </div>
           <hr className="my-2" />
@@ -75,16 +49,9 @@ export default function TrendingServiceCard1({ data }) {
                 />
                 <span className="online-badges" />
               </span>
-              <span className="fz14">{data.author.name}</span>
+              <span>Bid Expiery Date: {data.ExpieryDate}</span>
             </a>
-            <div className="budget">
-              <p className="mb-0 body-color">
-                Starting at
-                <span className="fz17 fw500 dark-color ms-1">
-                  ${data.price}
-                </span>
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
