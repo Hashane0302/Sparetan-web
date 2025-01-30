@@ -43,7 +43,9 @@ export default function BrowserCategory13() {
             <div key={i} className="col">
               <div className="iconbox-style1 at-home13-v1 text-center px-0 pt-05  ">
                 <div className="icon">
-                  <span className={elm.icon}></span>
+                  <div className="iconbox">
+                  <img src={elm.img} alt={elm.title} className="category-image" />
+                  </div>
                 </div>
                 <div className="details mt20 ">
                   <p className="text mb5">{elm.skill} skills</p>

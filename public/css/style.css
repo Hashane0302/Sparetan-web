@@ -5072,7 +5072,7 @@ section {
 
 /*	Iconbox Styles  */
 .iconbox-style1 {
-  background-color: #ffffff;
+  background: linear-gradient(180deg, 0%, rgb(30, 70, 102) 100%);
   border-radius: 8px;
   margin-bottom: 30px;
   padding: 40px 30px 30px;
@@ -12897,4 +12897,12 @@ hr {
 }
 .mobile-dasboard-menu-active > * {
   color: #fff !important;
+}
+
+/* Skills catogery Start */
+
+.category-image {
+  width: 100px; /* Adjust as needed */
+  height: 100px;
+  object-fit: contain;
 }
