@@ -9,17 +9,13 @@ export default function OurBlog1() {
 
   return (
     <>
-      <section
-        className="pb90 pb20-md bg-ourBlog"
-      >
+      <section className="pb90 pb20-md bg-ourBlog">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="00ms">
               <div className="main-title">
                 <h2 className="title">Our Blog</h2>
-                <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
-                </p>
+                <p className="paragraph">Read our latest articles</p>
               </div>
             </div>
             {path === "/home-5" && (
@@ -34,8 +30,8 @@ export default function OurBlog1() {
             )}
           </div>
           <div className="row wow fadeInUp" data-wow-delay="300ms">
-            {blog1.slice(0, 4).map((item,i) => (
-              <div key={ i } className="col-sm-6 col-xl-3">
+            {blog1.slice(0, 4).map((item, i) => (
+              <div key={i} className="col-sm-6 col-xl-3">
                 <BlogCard1
                   data={item}
                   isContentExpanded={path === "/home-6" ? true : false}

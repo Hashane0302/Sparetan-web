@@ -6948,7 +6948,7 @@ textarea {
   content: "+";
 }
 .accordion-style1 .accordion-button:not(.collapsed) {
-  background-color: #f1fcfa;
+  background-color: #8dbed6;
 }
 .accordion-style1 .accordion-button:not(.collapsed):before {
   content: "";
@@ -7243,8 +7243,8 @@ textarea {
 }
 
 .btn-thm {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
+  background-color: #174863;
+  border: 2px solid #174863;
   color: #ffffff;
 }
 
@@ -12170,11 +12170,11 @@ input:focus-visible {
 }
 
 .bgc-thm {
-  background-color: var(--primary-color);
+  background-color: #174863;
 }
 
 .bgc-thm2 {
-  background-color: #1f4b3f;
+  background-color: #174863;
 }
 
 .bgc-thm3 {

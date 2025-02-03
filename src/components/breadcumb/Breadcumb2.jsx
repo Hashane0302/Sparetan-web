@@ -12,7 +12,7 @@ export default function Breadcumb2({ title, brief }) {
           path !== "/blog-2" && path !== "/blog-3" ? "mt40" : "pt0"
         }`}
       >
-        <div className="cta-about-v1 mx-auto maxw1700 pt20 mt100  pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg">
+        <div className="cta-about-v1 mx-auto maxw1700 pt120 mt100 pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg">
           <div className="container">
             <div className="row">
               <div className="col-xl-5">

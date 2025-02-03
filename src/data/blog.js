@@ -1,12 +1,13 @@
 export const blog1 = [
   {
     id: 1,
-    img: "/images/blog/blog-1.jpg",
+    img: "/images/blog/blog1.png",
     date: "December 2, 2022",
-    title: "Start an online business and work from home",
-    brief: "A complete guide to starting a small business online",
+    title: "The Rise of Freelancing: ",
+    brief:
+      "The freelancing trend is something highly remarkable in the workforce of today. This trend, ignited by the demands for flexibility, independence, and the ability to work anywhere, remains upward. ",
     description:
-      "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "The freelancing trend is something highly remarkable in the workforce of today. This trend, ignited by the demands for flexibility, independence, and the ability to work anywhere, remains upward. ",
     category: "Freelancer",
     author: {
       img: "/images/blog/author-md-1.png",
@@ -15,10 +16,11 @@ export const blog1 = [
   },
   {
     id: 2,
-    img: "/images/blog/blog-2.jpg",
+    img: "/images/blog/blog2.png",
     date: "December 2, 2022",
-    title: "Front becomes an official Instagram Marketing Partner",
-    brief: "A complete guide to starting a small business online",
+    title: "Top Skills in Demand for 2025: What Freelancers Should Knowr",
+    brief:
+      "As we head towards 2025, some of the skills will be in high demand and value in the freelance market. Being tuned to these trends will help freelancers ..",
     description:
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
     category: "Graphics Design",
@@ -29,11 +31,11 @@ export const blog1 = [
   },
   {
     id: 3,
-    img: "/images/blog/blog-3.jpg",
+    img: "/images/blog/blog3.png",
     date: "December 2, 2022",
-    title: `Start an online business and work
-        from home right now`,
-    brief: "A complete guide to starting a small business online",
+    title: `How to Choose the Perfect Freelancer for Your Next Project`,
+    brief:
+      "It can be daunting to find the right freelancer for your project among so many options, but if you go about, it in the right way and with the right tools,",
     description:
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
     category: "App Developer",
@@ -44,11 +46,11 @@ export const blog1 = [
   },
   {
     id: 4,
-    img: "/images/blog/blog-4.jpg",
+    img: "/images/blog/blog4.png",
     date: "December 2, 2022",
-    title: `Start an online business and work
-        from home with complete guide.`,
-    brief: "A complete guide to starting a small business online",
+    title: `Freelancer Success Stories: How Ordinary Talents Achieved Extraordinary Results`,
+    brief:
+      "Successful freelancing most of the time happens because of perseverance, skill, and just the right..",
     description:
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
     category: "Digital Marketing",
