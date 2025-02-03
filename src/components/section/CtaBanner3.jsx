@@ -18,6 +18,12 @@ export default function CtaBanner3() {
                       <br className="d-none d-lg-block" />
                       talent at your fingertips
                     </h2>
+                    <p>
+                      Discover the cream of freelancers from all over the world
+                      who bring in novelty, skill, and imagination. Sparetan
+                      connects you with professionals ready to bring your
+                      projects into life, whatever the industry or scale.
+                    </p>
                   </div>
                 </div>
                 <div className="why-chose-list">
@@ -26,10 +32,9 @@ export default function CtaBanner3() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">Proof of quality</h4>
                       <p className="text mb-0 fz15">
-                        Check any pro’s work samples, client reviews, and
-                        identity
-                        <br className="d-none d-lg-block" />
-                        verification.
+                        Browse portfolios, client reviews, and verified
+                        identities. Work confidently,knowing you're hiring top
+                        talent.
                       </p>
                     </div>
                   </div>
@@ -38,10 +43,9 @@ export default function CtaBanner3() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">No cost until you hire</h4>
                       <p className="text mb-0 fz15">
-                        Interview potential fits for your job, negotiate rates,
-                        and only pay
-                        <br className="d-none d-lg-block" />
-                        for work you approve.
+                        Browse portfolios, client reviews, and verified
+                        identities. Work confidently,knowing you're hiring top
+                        talent.
                       </p>
                     </div>
                   </div>
@@ -50,8 +54,8 @@ export default function CtaBanner3() {
                     <div className="list-content flex-grow-1 ml20">
                       <h4 className="mb-1">Safe and secure</h4>
                       <p className="text mb-0 fz15">
-                        Focus on your work knowing we help protect your data and
-                        privacy. We’re here with 24/7 support if you need it.
+                        Your data and payments are always secure. Your peace of
+                        mind is our top priority, with support around the clock.
                       </p>
                     </div>
                   </div>
@@ -66,7 +70,7 @@ export default function CtaBanner3() {
                     height={705}
                     width={691}
                     className="w100 h-100"
-                    src="/images/about/about-6.jpg"
+                    src="/images/about/aboutus-2.png"
                     alt="about 6"
                   />
                 </div>

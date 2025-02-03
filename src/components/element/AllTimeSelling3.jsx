@@ -10,7 +10,7 @@ export default function AllTimeSelling3() {
             <div className="details">
               <h4 className="title text-white mt10 mb-3">Post a job</h4>
               <p className="text text-white">
-                It’s free and easy to post a job. Simply fill{" "}
+              Have a project in mind? It's free to post your job and get started right now. {" "}
                 <br className="d-none d-xxl-block" /> in a title, description.
               </p>
             </div>

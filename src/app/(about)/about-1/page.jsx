@@ -1,5 +1,6 @@
-import Footer from "@/components/footer/Footer";
-import Header20 from "@/components/header/Header20";
+
+import Footer4 from "@/components/footer/Footer4";
+import Header12 from "@/components/header/Header12";
 import About2 from "@/components/section/About2";
 import About3 from "@/components/section/About3";
 import About4 from "@/components/section/About4";
@@ -17,17 +18,17 @@ export const metadata = {
 export default function page() {
     return (
         <>
-            <Header20 />
+            <Header12 />
             <About2 />
-            <About3 />
-            <CtaBanner1 />
-            <CounterInfo1 />
-            <Testimonial1 />
-            <About4 />
-            <PriceTable1 />
-            <OurPartner1 />
-            <OurCta1 />
-            <Footer />
+            {/* <About3 /> */}
+            {/* <CtaBanner1 /> */}
+            {/* <CounterInfo1 /> */}
+            {/* <Testimonial1 /> */}
+            {/* <About4 /> */}
+            {/* <PriceTable1 /> */}
+            {/* <OurPartner1 /> */}
+            {/* <OurCta1 /> */}
+            <Footer4/>
         </>
     );
 }

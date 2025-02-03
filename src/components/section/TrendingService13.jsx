@@ -24,17 +24,16 @@ export default function TrendingService13() {
           <div className="row align-items-center wow fadeInUp">
             <div className="col-lg-9">
               <div className="main-title">
-                <h2 className="title">Trending jobs</h2>
-                <p className="paragraph">
+                <h2 className="title text-white">Trending jobs</h2>
+                <p className="paragraph text-white">
                   Most viewed and all-time jobs and services
                 </p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="text-start text-lg-end mb-4 mb-lg-2">
-                <Link className="ud-btn2" href="/service-1">
-                  All Categories
-                  <i className="fal fa-arrow-right-long" />
+              <div className="text-start text-lg-end mb-4 mb-lg-2 ">
+                <Link className="ud-btn2" href="/service-1 ">
+                  <p className="text-white">All Categories<i className="fal fa-arrow-right-long" /></p>
                 </Link>
               </div>
             </div>

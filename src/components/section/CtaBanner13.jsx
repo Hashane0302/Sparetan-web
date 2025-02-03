@@ -8,21 +8,21 @@ export default function CtaBanner13() {
       iconClass: "flaticon-badge",
       title: "Proof of quality",
       description:
-        "Check any pro’s work samples, client reviews, and identity verification.",
+        "Browse portfolios, client reviews, and verified identities. Work confidently,knowing you're hiring top talent.",
     },
     {
       id: 2,
       iconClass: "flaticon-money",
       title: "No cost until you hire",
       description:
-        "Interview potential fits for your job, negotiate rates, and only pay for work you approve.",
+        "Discuss your project with potential freelancers, finalize rates, and only pay when the work is done to your satisfaction-all with zero upfront fees.",
     },
     {
       id: 3,
       iconClass: "flaticon-security",
       title: "Safe and secure",
       description:
-        "Focus on your work knowing we help protect your data and privacy. We’re here with 24/7 support if you need it.",
+        "Your data and payments are always secure. Your peace of mind is our top priority, with support around the clock.",
     },
   ];
   return (
@@ -38,6 +38,7 @@ export default function CtaBanner13() {
                     <br className="d-none d-xl-block" /> talent at your
                     fingertips
                   </h2>
+                  <p className="text-white">Find freelancers for any job, any project. Whatever your needs, the ideal freelancer is just a click away.</p>
                 </div>
               </div>
               <div className="why-chose-list pr60 pr0-lg">
@@ -69,13 +70,13 @@ export default function CtaBanner13() {
                       width={240}
                       height={240}
                       className="mb35"
-                      src="/images/about/home13-cta-1.png"
+                      src="/images/about/img2.png"
                       alt=" image "
                     />
                     <Image
                       width={240}
                       height={240}
-                      src="/images/about/home13-cta-2.png"
+                      src="/images/about/img1.png"
                       alt=" image "
                     />
                   </div>
@@ -84,13 +85,13 @@ export default function CtaBanner13() {
                       width={240}
                       height={240}
                       className="mb35"
-                      src="/images/about/home13-cta-3.png"
+                      src="/images/about/img3.png"
                       alt=" image "
                     />
                     <Image
                       width={240}
                       height={240}
-                      src="/images/about/home13-cta-4.png"
+                      src="/images/about/img4.png"
                       alt=" image "
                     />
                   </div>

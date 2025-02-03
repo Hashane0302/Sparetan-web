@@ -10,7 +10,7 @@ export default function NeedSomething2() {
               <div className="main-title">
                 <h2>Need something done?</h2>
                 <p className="text">
-                  Most viewed and all-time top-selling services
+                Get your ideas done with the best freelancers around the world-from big projects to small tasks
                 </p>
               </div>
             </div>

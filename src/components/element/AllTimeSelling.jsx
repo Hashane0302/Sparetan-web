@@ -10,8 +10,7 @@ export default function AllTimeSelling() {
             <div className="details">
               <h4 className="title mt10 mb-3">Post a job</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+              Have a project in mind? It's free to post your job and get started right now. Just create a title and describe what you need, and you'll start seeing the right freelancers in minutes.
               </p>
             </div>
           </div>
@@ -24,8 +23,7 @@ export default function AllTimeSelling() {
             <div className="details">
               <h4 className="title mt10 mb-3">Choose freelancers</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+              Browse a pool of pre-verified experts. Choose the best fit for your project based on their skills, reviews, and portfolios—all at your fingertips.
               </p>
             </div>
           </div>
@@ -38,8 +36,7 @@ export default function AllTimeSelling() {
             <div className="details">
               <h4 className="title mt10 mb-3">Pay safely</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+              Your funds are completely secured with our safe payment system. Release payments only when you are satisfied with the delivered work.
               </p>
             </div>
           </div>
@@ -52,8 +49,7 @@ export default function AllTimeSelling() {
             <div className="details">
               <h4 className="title mt10 mb-3">We’re here to help</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+              Need answers? Our support team is here 24/7 to walk you through every step of your journey. Your success is our priority.
               </p>
             </div>
           </div>

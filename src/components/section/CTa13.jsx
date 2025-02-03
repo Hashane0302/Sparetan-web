@@ -9,12 +9,12 @@ export default function CTa13() {
         <div className="row justify-content-between">
           <div className="col-md-6 col-lg-8 wow fadeInLeft">
             <div className="cta-style3">
-              <h2 className="cta-title">
+              <h2 className="cta-title text-white">
                 Find the talent needed to get your{" "}
-                <br className="d-none d-xl-block" />
+                <br className="d-none d-xl-block " />
                 business growing.
               </h2>
-              <p className="cta-text">
+              <p className="cta-text text-white">
                 Advertise your jobs to millions of monthly users and search 15.8
                 million CVs
               </p>
@@ -32,7 +32,7 @@ export default function CTa13() {
               height={460}
               style={{ height: "fit-content" }}
               className="home11-ctaimg-v3 d-none d-md-block"
-              src="/images/about/about-12.png"
+              src="/images/about/img-cta-1.png"
               alt=" image "
             />
           </div>

@@ -54,7 +54,7 @@ a {
 
 .prev-btn:hover,
 .next-btn:hover {
-  background-color: var(--primary-color);
+  background-color: #004262;
   color: #ffffff;
 }
 /* slider arrow end*/

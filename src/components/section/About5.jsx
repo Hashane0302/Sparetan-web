@@ -16,7 +16,7 @@ export default function About5() {
                   height={574}
                   width={691}
                   className="w100 h-100"
-                  src="/images/about/about-1.png"
+                  src="/images/about/aboutus-1.png"
                   alt="about"
                 />
               </div>
@@ -27,15 +27,15 @@ export default function About5() {
                 data-wow-delay="300ms"
               >
                 <h2 className="mb25">
-                  Join World's Best Marketplace{" "}
-                  <br className="d-none d-xl-block" /> for Workers
+                  Join the World's Best Marketplace for Workers{" "}
+                  <br className="d-none d-xl-block" />
                 </h2>
                 <p className="text mb25">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
+                  Sparetan is that one marketplace where enterprises and
+                  freelancers meet for the making of the future of work. This is
+                  a highly reputed platform wherein businesses find their best
+                  fit while allowing freelancers to get notifications on
+                  projects that would further help them develop themselves
                 </p>
                 <div className="list-style2">
                   <ul className="mb20">

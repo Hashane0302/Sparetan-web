@@ -17,20 +17,7 @@ export default function OurPartner1() {
   return (
     <>
       <section
-        className={`our-partners ${
-          path === "/" ||
-          path === "/home-3" ||
-          path === "/about-2" ||
-          path === "/home-15" ||
-          path === "/home-6"
-            ? "pt0"
-            : ""
-        } ${path === "/home-8" ? "pt0 pb0" : ""} ${
-          path === "/home-14" ? "bdrt1 pt55 pb55" : ""
-        } 
-        ${path === "/home-16" ? "pt55 pb55" : ""}
-        ${path === "/home-13" ? "pt55 pb55" : ""}
-        `}
+        className="our-partners mt-5 mb-5"
       >
         <div className="container">
           <div className="row">

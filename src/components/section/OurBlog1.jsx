@@ -10,9 +10,7 @@ export default function OurBlog1() {
   return (
     <>
       <section
-        className={`pb90 pb20-md ${
-          path === "/home-4" || path === "/home-7" ? "pt0" : ""
-        }`}
+        className="pb90 pb20-md bg-ourBlog"
       >
         <div className="container">
           <div className="row justify-content-between">

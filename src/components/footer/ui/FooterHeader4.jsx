@@ -10,7 +10,7 @@ const links = [
 export default function FooterHeader4() {
     return (
         <>
-            <div className="row bdrb1 pb10 mb60">
+            <div className="row bdrb1 pb10 mb0">
                 <div className="col-md-7">
                     <div className="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
                         {links.map((item, i) => (

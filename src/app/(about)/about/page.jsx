@@ -1,8 +1,6 @@
 import Breadcumb2 from "@/components/breadcumb/Breadcumb2";
-import Footer from "@/components/footer/Footer";
-import Header13 from "@/components/header/Header13";
-import Header20 from "@/components/header/Header20";
-
+import Footer4 from "@/components/footer/Footer4";
+import Header12 from "@/components/header/Header12";
 import About5 from "@/components/section/About5";
 import CounterInfo1 from "@/components/section/CounterInfo1";
 import CtaBanner3 from "@/components/section/CtaBanner3";
@@ -19,21 +17,22 @@ export const metadata = {
 export default function page() {
     return (
         <>
-            <Header13/>
+            <Header12/>
             <Breadcumb2
+            
                 title="About"
                 brief="Give your visitor a smooth online experience with a solid UX design"
             />
 
             <About5 />
-            <CounterInfo1 />
+            {/* <CounterInfo1 /> */}
             <CtaBanner3 />
-            <OurFunFact1 />
+            {/* <OurFunFact1 />
             <Testimonial2 />
-            <CtaBanner4 />
-            <OurFaq1 />
-            <OurPartner1 />
-            <Footer />
+            <CtaBanner4 /> */}
+            {/* <OurFaq1 /> */}
+            {/* <OurPartner1 /> */}
+            <Footer4/>
         </>
     );
 }
